@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
+  s.authors      = { "jszh" => "969883825@qq.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/gitSirzh/react-native-amap-address.git", :tag => "#{s.version}" }
 
@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  # ...
-  # s.dependency "..."
+  s.dependency "AMapLocation", "~> 2.6.5"
+  s.dependency "AMapFoundation", "~> 1.6.3"
+  s.dependency "AMapSearch", "~> 7.3.0"
+  s.dependency "AMap3DMap", "~> 7.4.0"
 end
 

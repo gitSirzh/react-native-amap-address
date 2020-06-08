@@ -1,5 +1,13 @@
-import { NativeModules } from 'react-native';
+/**
+ * Created by jszh on 2020/6/8.
+ */
 
-const { AmapAddress } = NativeModules;
+'use strict';
 
-export default AmapAddress;
+import MapView from './src/MapView';
+import MapModule from './src/MapModule';
+
+export {
+    MapView,
+    MapModule
+};
