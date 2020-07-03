@@ -4,10 +4,6 @@
 
 'use strict';
 
-import MapView from './src/MapView';
-import MapModule from './src/MapModule';
+import AMapView from './src/AMap';
 
-export {
-    MapView,
-    MapModule
-};
+export default AMapView;

@@ -2,22 +2,26 @@
   "name": "react-native-amap-address",
   "title": "React Native Amap Address",
   "version": "0.0.1",
-  "description": "TODO",
+  "description": "高德地图选择地点",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-amap-address.git",
-    "baseUrl": "https://github.com/github_account/react-native-amap-address"
+    "url": "git+https://github.com/gitSirzh/react-native-amap-address.git",
+    "baseUrl": "https://github.com/gitSirzh/react-native-amap-address"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "map",
+    "amap",
+    "android",
+    "ios"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "jszh",
+    "email": "969883825@qq.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
